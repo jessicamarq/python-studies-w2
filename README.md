@@ -18,5 +18,5 @@ This repository contains my solutions for the exercises from **World 2** of the 
 |---|---|---|
 | **036-045** | Nested Conditions (If/Elif) | ✅ Completed |
 | **046-056** | Loop Structure: FOR | ✅ Completed |
-| **057-065** | Loop Structure: WHILE | On going |
+| **057-065** | Loop Structure: WHILE | ✅ Completed |
 | **066-071** | Breaking Loops (While True) | On going |
