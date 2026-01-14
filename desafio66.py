@@ -1,12 +1,13 @@
-#Faça um programa que te mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.
-
-while True:
-  num = int(input('Digite o número para saber a tabuada:'))
-  print('Digite um número negativo para sair.')
-  if num < 0:
-    print('Encerrando programa...')
+soma = 0
+cont = 0
+while cont >= 0:
+  print('Digite 999 caso queira parar')
+  n = int(input('ou um número inteiro: '))
+  print('-'*30)
+  if n == 999:
     break
+  soma += n
+  cont+=1
+print(f'Você digitou {cont} números e a soma entre eles foi de {soma}')
+print('Finalizando programa...')
 
-  for i in range (1,11):
-    print(f'{i} x {num} = {i*num}')
-  print('Digite um número negativo para sair.')
